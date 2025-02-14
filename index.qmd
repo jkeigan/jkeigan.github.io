@@ -1,16 +1,26 @@
 ---
-title: "My Quarto Website"
-navbar:
-  right:
-    - about.qmd
-    - text: "GitHub"
-      href: "https://github.com/jkeigan"
-format:
-  html:
-    theme: cosmo
+format: html
+editor: visual
 ---
+```{=html}
+<div class="hero">
+  <img src="profile.jpg" alt="Jonathan Keigan" class="profile-img">
+      <!-- 🚀 Buttons Section -->
+  <div class="hero-buttons">
+    <a href="https://github.com/jkeigan" class="btn-minimal"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/jonathan-keigan" class="btn-minimal"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="mailto:jonathandanielkeigan@gmail.com" class="btn-minimal"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+  
+  <h1>Jonathan Keigan</h1>
+  <h2>Linguist, Data Scientist, ML Engineer</h2>
+  <p class="hero-subtitle">
+    Hi, I'm <strong>Jonathan Keigan</strong>, a master's student at the <strong>University of British Columbia</strong>.  
+    I study <strong>data science</strong> with a focus in <strong>computational linguistics</strong>, and my goal is to use  
+    <strong>language technology</strong> to solve meaningful problems in fields like <strong>EdTech</strong> and <strong>Healthcare</strong>.
+  </p>
+</div>
+```
 
-## Welcome to My Website!
 
-This website is built using **Quarto** and hosted on **GitHub Pages**.
 

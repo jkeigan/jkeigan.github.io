@@ -1,23 +1,23 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My Quarto Website",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "This website is built using Quarto and hosted on GitHub Pages."
-  },
-  {
-    "objectID": "index.html#welcome-to-my-website",
-    "href": "index.html#welcome-to-my-website",
-    "title": "My Quarto Website",
-    "section": "",
-    "text": "This website is built using Quarto and hosted on GitHub Pages."
+    "text": "🚀 Coming soon…! Stay tuned for updates on my latest work."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jonathan Keigan",
+    "section": "",
+    "text": "GitHub\n     LinkedIn\n     Email\n  \n  \n  Jonathan Keigan\n  Linguist, Data Scientist, ML Engineer\n  \n    Hi, I'm Jonathan Keigan, a master's student at the University of British Columbia.  \n    I study data science with a focus in computational linguistics, and my goal is to use  \n    language technology to solve meaningful problems in fields like EdTech and Healthcare."
   }
 ]

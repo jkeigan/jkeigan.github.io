@@ -5,16 +5,25 @@ project:
 website:
   title: "Jonathan Keigan"
   navbar:
+    background: dark
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
-
+        text: "Home"
+      - href: about.qmd
+        text: "About"
+      - href: projects.qmd
+        text: "Projects"
+  page-footer:
+    center: "© 2024 Jonathan Keigan"
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    allow-html: true
+    include-in-header:
+      - text: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">'
+    # toc: true
+    # toc-location: right
 
 
 
