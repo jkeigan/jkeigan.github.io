@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Quarto Website",
+    "section": "",
+    "text": "This website is built using Quarto and hosted on GitHub Pages."
+  },
+  {
+    "objectID": "index.html#welcome-to-my-website",
+    "href": "index.html#welcome-to-my-website",
+    "title": "My Quarto Website",
+    "section": "",
+    "text": "This website is built using Quarto and hosted on GitHub Pages."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

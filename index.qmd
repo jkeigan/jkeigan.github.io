@@ -1,0 +1,16 @@
+---
+title: "My Quarto Website"
+navbar:
+  right:
+    - about.qmd
+    - text: "GitHub"
+      href: "https://github.com/jkeigan"
+format:
+  html:
+    theme: cosmo
+---
+
+## Welcome to My Website!
+
+This website is built using **Quarto** and hosted on **GitHub Pages**.
+
