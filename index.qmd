@@ -16,7 +16,7 @@ editor: visual
   <h1>Jonathan Keigan</h1>
   <h2>Linguist, Data Scientist, AI/ML Engineer</h2>
   <p class="hero-subtitle">
-    Hi! I'm a data scientist based in Vancouver, Canada. I recently graduated from the University of British Columbia with a Master's in Data Science focused on NLP, and have experience in modern AI engineering techniques such as RAG and agentic workflows. My goal is to use language technology to solve meaningful problems in fields like Ed-Tech and Healthcare.
+    Hi! I'm a data scientist based in Vancouver, Canada. I recently graduated from the University of British Columbia with a Master's in Data Science focused on NLP.  I'm experienced in modern AI engineering techniques such as RAG and agentic workflows. My goal is to use language technology to solve meaningful problems in fields like Ed-Tech and Healthcare.
   </p>
 </div>
 ```

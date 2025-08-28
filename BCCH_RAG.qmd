@@ -1,10 +1,10 @@
 ---
-title: "BC Children's Hospital QA Chatbot: A Safety-focused AI Tool for Hospital Discharge Support"
+title: "BC Children's Hospital QA Chatbot"
+subtitle: "A Safety-focused AI Tool for Hospital Discharge Support"
 format: html
 ---
-
-<div style="text-align: center;">
-<img src="BCCH_frontend_gif.gif" width="500" alt="BCCH Frontend Demo">
+<div class="text-center">
+<img src="BCCH_frontend_gif.gif" class="img-fluid" style="max-width: 500px;" alt="BCCH Frontend Demo">
 </div>
 
 ## Project Overview
@@ -18,7 +18,7 @@ During a two month internship with BC Children's Hosptial's Digital Lab, my team
 - **Data Preprocessing**: Parsing, cleaning and chunking of heterogenous data sources (PDFs, websites, etc.)
 - **Semantic Search**: FAISS vector database with optional ColBERT reranking for improved relevance  
 - **LLM Integration**: LLM-powered answer generation with LangChain for structured output and prompt engineering to minimize hallucination
-- **Evaluation Toolkit**: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores)  
+- **Evaluation Toolkit**: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judge, semantic similarity scores)  
 - **Object Oriented Design**: Modular and scalable system to facilitate integration of new data sources and models.
 - **Frontend Application**: Intuitive chatbot interface for physicians and patients
 - **Documentation**: Complete documentation for maintaining and modifying the system, ensuring smooth handoff to the hospital's development team
@@ -31,7 +31,7 @@ During a two month internship with BC Children's Hosptial's Digital Lab, my team
 - **ML/AI**: LangChain, LLM API integration (OpenAI, Google Gen AI, Hugging Face)
 - **Vector Database**: FAISS, ColBERT reranking
 - **Web Framework**: Flask
-- **Evaluation**: Prometheus LLM judge, AlignScore, BERT Score, BLEU Score, etc.
+- **Evaluation**: Prometheus-Eval, AlignScore, BERT Score, BLEU Score, etc.
 - **Tools**: Jupyter notebooks, Git
 
 </div>
