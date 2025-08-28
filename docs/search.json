@@ -4,26 +4,19 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "BC Children’s Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support\nAn end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.\n\n🚀 More projects coming soon…! Stay tuned for updates on my latest work."
-  },
-  {
-    "objectID": "hospital-discharge-ai.html",
-    "href": "hospital-discharge-ai.html",
-    "title": "BC Children’s Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support",
-    "section": "",
-    "text": "During a two month internship with BC Children’s Hosptial’s Digital Lab, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources."
+    "text": "BC Children’s Hospital QA Chatbot: A Safety-focused AI Tool for Hospital Discharge Support\nAn end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.\n\n🚀 More projects coming soon…! Stay tuned for updates on my latest work."
   },
   {
     "objectID": "hospital-discharge-ai.html#project-overview",
     "href": "hospital-discharge-ai.html#project-overview",
-    "title": "BC Children’s Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support",
+    "title": "BC Children’s Hospital QA Chatbot: A Safety-focused AI Tool for Hospital Discharge Support",
     "section": "Project Overview",
-    "text": "Project Overview\n\n\nKey Features\n\nData Preprocessing: Parsing, cleaning and chunking of heterogenous data sources (PDFs, websites, etc.)\nSemantic Search: FAISS vector database with optional ColBERT reranking for improved relevance\n\nLLM Integration: LLM-powered answer generation with LangChain for structured output and prompt engineering to minimize hallucination\nEvaluation Toolkit: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores)\n\nObject Oriented Design: Modular and scalable system to facilitate integration of new data sources and models.\nFrontend Application: Intuitive chatbot interface for physicians and patients\nDocumentation: Complete documentation for maintaining and modifying the system, ensuring smooth handoff to the hospital’s development team\n\n\n\nTech Stack\n\nLanguages: Python, JavaScript, HTML, CSS\nML/AI: LangChain, LLM API integration (OpenAI, Google Gen AI, Hugging Face)\nVector Database: FAISS, ColBERT reranking\nWeb Framework: Flask\nEvaluation: Prometheus LLM judge, AlignScore, BERT Score, BLEU Score, etc.\nTools: Jupyter notebooks, Git"
+    "text": "Project Overview\nDuring a two month internship with BC Children’s Hosptial’s Digital Lab, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.\n\n\nKey Features\n\nData Preprocessing: Parsing, cleaning and chunking of heterogenous data sources (PDFs, websites, etc.)\nSemantic Search: FAISS vector database with optional ColBERT reranking for improved relevance\n\nLLM Integration: LLM-powered answer generation with LangChain for structured output and prompt engineering to minimize hallucination\nEvaluation Toolkit: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores)\n\nObject Oriented Design: Modular and scalable system to facilitate integration of new data sources and models.\nFrontend Application: Intuitive chatbot interface for physicians and patients\nDocumentation: Complete documentation for maintaining and modifying the system, ensuring smooth handoff to the hospital’s development team\n\n\n\nTech Stack\n\nLanguages: Python, JavaScript, HTML, CSS\nML/AI: LangChain, LLM API integration (OpenAI, Google Gen AI, Hugging Face)\nVector Database: FAISS, ColBERT reranking\nWeb Framework: Flask\nEvaluation: Prometheus LLM judge, AlignScore, BERT Score, BLEU Score, etc.\nTools: Jupyter notebooks, Git"
   },
   {
     "objectID": "hospital-discharge-ai.html#project-details",
     "href": "hospital-discharge-ai.html#project-details",
-    "title": "BC Children’s Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support",
+    "title": "BC Children’s Hospital QA Chatbot: A Safety-focused AI Tool for Hospital Discharge Support",
     "section": "Project Details",
     "text": "Project Details\n\nProblem Statement\nPatients and families often struggle to find reliable, accessible medical information online. While there are many healthcare resources available, navigating them effectively requires significant time and effort. There was a need for a system that could understand medical questions and provide accurate, trustworthy answers.\n\n\nApproach & Solution\nRead more about our approach on Medium\n\n\nResults & Impact\nBy the end of our internship, we had:\n- Created a baseline retrieval system for future healthcare AI applications at BC Children’s Hospital\n- Implemented comprehensive evaluation pipeline for both retrieval and generation quality\n- Created a user-friendly chatbot interface that provides answers with source links\n\n\nKey Challenges\nThere were several challenges we faced:\n- Data Quality & Variety: Handling messy, heterogeneous data from various healthcare sources with different formats and structures\n- LLM Hallucination: Implementing prompt engineering strategies to minimize hallucination, though complete elimination proved challenging\n- Evaluation Framework: Designing an evaluation framework for LLM outputs without extensive manual annotation\n\n\n← Back to Portfolio"
   },
@@ -39,6 +32,6 @@
     "href": "index.html",
     "title": "Jonathan Keigan",
     "section": "",
-    "text": "GitHub\n     LinkedIn\n     Email\n  \n  \n  Jonathan Keigan\n  Linguist, Data Scientist, ML Engineer\n  \n    Hi! I'm a master's student at the University of British Columbia. I study data science with a focus in computational linguistics, and my goal is to use language technology to solve meaningful problems in fields like EdTech and Healthcare."
+    "text": "GitHub\n     LinkedIn\n     Email\n  \n  \n  Jonathan Keigan\n  Linguist, Data Scientist, AI/ML Engineer\n  \n    Hi! I'm a data scientist based in Vancouver, Canada. I recently graduated from the University of British Columbia with a Master's in Data Science focused on NLP, and have experience in modern AI engineering techniques such as RAG and agentic workflows. My goal is to use language technology to solve meaningful problems in fields like Ed-Tech and Healthcare."
   }
 ]

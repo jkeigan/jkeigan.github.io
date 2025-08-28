@@ -1,15 +1,15 @@
 ---
-title: "BC Children's Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support"
+title: "BC Children's Hospital QA Chatbot: A Safety-focused AI Tool for Hospital Discharge Support"
 format: html
 ---
-
-During a two month internship with BC Children's Hosptial's Digital Lab, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.
 
 <div style="text-align: center;">
 <img src="BCCH_frontend_gif.gif" width="500" alt="BCCH Frontend Demo">
 </div>
 
 ## Project Overview
+
+During a two month internship with BC Children's Hosptial's Digital Lab, my team and I created an **end-to-end Retrieval-Augmented Generation (RAG) chatbot** for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.
 
 <div class="row">
 <div class="col-md-6">

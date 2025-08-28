@@ -3,7 +3,7 @@ title: "Portfolio"
 format: html
 ---
 
-### [BC Children's Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support](hospital-discharge-ai.html)
+### [BC Children's Hospital QA Chatbot: A Safety-focused AI Tool for Hospital Discharge Support](hospital-discharge-ai.html)
 
 An end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.
 

@@ -14,7 +14,7 @@ website:
       - href: portfolio.qmd
         text: "Portfolio"
   page-footer:
-    center: "© 2024 Jonathan Keigan"
+    center: "© 2025 Jonathan Keigan"
 format:
   html:
     theme: cosmo
