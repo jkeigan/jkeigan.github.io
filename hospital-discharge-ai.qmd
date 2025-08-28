@@ -3,23 +3,25 @@ title: "BC Children's Hospital Chatbot: A Safety-focused AI Tool for Hospital Di
 format: html
 ---
 
-During a two month internship with BC Children's Hosptial, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.
+During a two month internship with BC Children's Hosptial's Digital Lab, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.
 
-![](BCCH_frontend_gif.gif)
+<div style="text-align: center;">
+<img src="BCCH_frontend_gif.gif" width="500" alt="BCCH Frontend Demo">
+</div>
 
 ## Project Overview
 
 <div class="row">
 <div class="col-md-6">
 
-### **Features**
-- End-to-end pipelines for both production and evaluation
-- Custom LangChain-powered architecture for modularity, scalability, and cross-domain adaptability
-- Flexible LLM implementation: supports multiple providers, future models, local and cloud-based
-- ColBERT reranking for improved document relevance
-- Flask web application with chatbot interface
-- Source link generation for transparency and trust
-- Thorough documentation for maintaining and modifying the system
+### **Key Features**
+- **Data Preprocessing**: Parsing, cleaning and chunking of heterogenous data sources (PDFs, websites, etc.)
+- **Semantic Search**: FAISS vector database with optional ColBERT reranking for improved relevance  
+- **LLM Integration**: LLM-powered answer generation with LangChain for structured output and prompt engineering to minimize hallucination
+- **Evaluation Toolkit**: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores)  
+- **Object Oriented Design**: Modular and scalable system to facilitate integration of new data sources and models.
+- **Frontend Application**: Intuitive chatbot interface for physicians and patients
+- **Documentation**: Complete documentation for maintaining and modifying the system, ensuring smooth handoff to the hospital's development team
 
 </div>
 <div class="col-md-6">
@@ -41,12 +43,7 @@ During a two month internship with BC Children's Hosptial, my team and I created
 Patients and families often struggle to find reliable, accessible medical information online. While there are many healthcare resources available, navigating them effectively requires significant time and effort. There was a need for a system that could understand medical questions and provide accurate, trustworthy answers.
 
 ### Approach & Solution
-We opted to develop a custom RAG system that combines:  
-- **Data Preprocessing**: Cleaning and chunking of public healthcare resources and websites  
-- **Semantic Search**: FAISS vector database with optional ColBERT reranking for improved relevance  
-- **Response Generation**: LLM-powered answer generation using LangChain for structured output  
-- **Evaluation Framework**: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores)
-- **Object Oriented Design**: Designed a modular and scalable system, allowing for easy integration of new data sources and models.
+[Read more about our approach on Medium](https://medium.com/@jonathankeigan/chatgpt-makes-mistakes-dont-be-outrageous-c0d7d2f947a2)
 
 ### Results & Impact
 By the end of our internship, we had:  

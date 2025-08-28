@@ -135,27 +135,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>During a two month internship with BC Children’s Hosptial, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.</p>
-<p><img src="BCCH_frontend_gif.gif" class="img-fluid"></p>
+<p>During a two month internship with BC Children’s Hosptial’s Digital Lab, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.</p>
+<div style="text-align: center;">
+<p><img src="BCCH_frontend_gif.gif" width="500" alt="BCCH Frontend Demo"></p>
+</div>
 <section id="project-overview" class="level2">
 <h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
 <div class="row">
-<section id="features" class="level3 col-md-6">
-<h3 class="anchored" data-anchor-id="features"><strong>Features</strong></h3>
+<section id="system-design" class="level3 col-md-6">
+<h3 class="anchored" data-anchor-id="system-design"><strong>System Design</strong></h3>
 <ul>
-<li>End-to-end pipelines for both production and evaluation</li>
-<li>Custom LangChain-powered architecture for modularity, scalability, and cross-domain adaptability</li>
-<li>Flexible LLM implementation: supports multiple providers, future models, local and cloud-based</li>
-<li>ColBERT reranking for improved document relevance</li>
-<li>Flask web application with chatbot interface</li>
-<li>Source link generation for transparency and trust</li>
+<li><strong>Data Preprocessing</strong>: Parsing, cleaning and chunking of heterogenous data sources (PDFs, websites, etc.)</li>
+<li><strong>Semantic Search</strong>: FAISS vector database with optional ColBERT reranking for improved relevance<br>
+</li>
+<li><strong>LLM Integration</strong>: LLM-powered answer generation with LangChain for structured output and prompt engineering to minimize hallucination</li>
+<li><strong>Evaluation Toolkit</strong>: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores)<br>
+</li>
+<li><strong>Object Oriented Design</strong>: Modular and scalable system to facilitate integration of new data sources and models.</li>
+<li><strong>Frontend Application</strong>: Intuitive chatbot interface for physicians and patients</li>
+<li><strong>Documentation</strong>: Complete documentation for maintaining and modifying the system, ensuring smooth handoff to the hospital’s development team</li>
 </ul>
 </section>
 <section id="tech-stack" class="level3 col-md-6">
 <h3 class="anchored" data-anchor-id="tech-stack"><strong>Tech Stack</strong></h3>
 <ul>
 <li><strong>Languages</strong>: Python, JavaScript, HTML, CSS</li>
-<li><strong>ML/AI</strong>: LangChain, Custom RAG, LLM API integration (OpenAI, Google GENAI, Hugging Face)</li>
+<li><strong>ML/AI</strong>: LangChain, LLM API integration (OpenAI, Google Gen AI, Hugging Face)</li>
 <li><strong>Vector Database</strong>: FAISS, ColBERT reranking</li>
 <li><strong>Web Framework</strong>: Flask</li>
 <li><strong>Evaluation</strong>: Prometheus LLM judge, AlignScore, BERT Score, BLEU Score, etc.</li>
@@ -172,11 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="approach-solution" class="level3">
 <h3 class="anchored" data-anchor-id="approach-solution">Approach &amp; Solution</h3>
-<p>We opted to develop a custom RAG system that combines:<br>
-- <strong>Data Preprocessing</strong>: Cleaning and chunking of public healthcare resources and websites<br>
-- <strong>Semantic Search</strong>: FAISS vector database with optional ColBERT reranking for improved relevance<br>
-- <strong>Response Generation</strong>: LLM-powered answer generation using LangChain for structured output<br>
-- <strong>Evaluation Framework</strong>: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores) - <strong>Object Oriented Design</strong>: Designed a modular and scalable system, allowing for easy integration of new data sources and models.</p>
+<p><a href="https://medium.com/@jonathankeigan/chatgpt-makes-mistakes-dont-be-outrageous-c0d7d2f947a2">Read more about our approach here on Medium</a></p>
 </section>
 <section id="results-impact" class="level3">
 <h3 class="anchored" data-anchor-id="results-impact">Results &amp; Impact</h3>
@@ -192,10 +193,7 @@ ul.task-list li input[type="checkbox"] {
 - <strong>LLM Hallucination</strong>: Implementing prompt engineering strategies to minimize hallucination, though complete elimination proved challenging<br>
 - <strong>Evaluation Framework</strong>: Designing an evaluation framework for LLM outputs without extensive manual annotation</p>
 <!-- ### Lessons Learned
-- The importance of comprehensive evaluation pipelines in RAG systems
-- How custom RAG implementations can outperform off-the-shelf solutions for domain-specific applications
-- The value of source transparency in building trust with medical AI systems
-- The challenges of evaluating generative AI outputs in domains requiring expert knowledge -->
+- -->
 <hr>
 <p><a href="portfolio.html">← Back to Portfolio</a></p>
 

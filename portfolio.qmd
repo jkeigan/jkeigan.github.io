@@ -3,12 +3,9 @@ title: "Portfolio"
 format: html
 ---
 
-## Featured Projects
+### [BC Children's Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support](hospital-discharge-ai.html)
 
-### [A Safety-focused AI Tool for Hospital Discharge Support](hospital-discharge-ai.html)
-**Master's Capstone Project | BC Children's Hospital**
-
-An end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries that provides trustworthy information to patients and caregivers from curated healthcare resources.
+An end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.
 
 ---
 
