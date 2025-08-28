@@ -11,8 +11,8 @@ website:
         text: "Home"
       - href: about.qmd
         text: "About"
-      - href: projects.qmd
-        text: "Projects"
+      - href: portfolio.qmd
+        text: "Portfolio"
   page-footer:
     center: "© 2024 Jonathan Keigan"
 format:

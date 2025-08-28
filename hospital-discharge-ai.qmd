@@ -1,0 +1,69 @@
+---
+title: "BC Children's Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support"
+format: html
+---
+
+During a two month internship with BC Children's Hosptial, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.
+
+![](BCCH_frontend_gif.gif)
+
+## Project Overview
+
+<div class="row">
+<div class="col-md-6">
+
+### **Features**
+- End-to-end pipelines for both production and evaluation
+- Custom LangChain-powered architecture for modularity, scalability, and cross-domain adaptability
+- Flexible LLM implementation: supports multiple providers, future models, local and cloud-based
+- ColBERT reranking for improved document relevance
+- Flask web application with chatbot interface
+- Source link generation for transparency and trust
+- Thorough documentation for maintaining and modifying the system
+
+</div>
+<div class="col-md-6">
+
+### **Tech Stack**
+- **Languages**: Python, JavaScript, HTML, CSS
+- **ML/AI**: LangChain, LLM API integration (OpenAI, Google Gen AI, Hugging Face)
+- **Vector Database**: FAISS, ColBERT reranking
+- **Web Framework**: Flask
+- **Evaluation**: Prometheus LLM judge, AlignScore, BERT Score, BLEU Score, etc.
+- **Tools**: Jupyter notebooks, Git
+
+</div>
+</div>
+
+## Project Details
+
+### Problem Statement
+Patients and families often struggle to find reliable, accessible medical information online. While there are many healthcare resources available, navigating them effectively requires significant time and effort. There was a need for a system that could understand medical questions and provide accurate, trustworthy answers.
+
+### Approach & Solution
+We opted to develop a custom RAG system that combines:  
+- **Data Preprocessing**: Cleaning and chunking of public healthcare resources and websites  
+- **Semantic Search**: FAISS vector database with optional ColBERT reranking for improved relevance  
+- **Response Generation**: LLM-powered answer generation using LangChain for structured output  
+- **Evaluation Framework**: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores)
+- **Object Oriented Design**: Designed a modular and scalable system, allowing for easy integration of new data sources and models.
+
+### Results & Impact
+By the end of our internship, we had:  
+- Created a baseline retrieval system for future healthcare AI applications at BC Children's Hospital    
+- Implemented comprehensive evaluation pipeline for both retrieval and generation quality  
+- Created a user-friendly chatbot interface that provides answers with source links  
+
+### Key Challenges
+There were several challenges we faced:  
+- **Data Quality & Variety**: Handling messy, heterogeneous data from various healthcare sources with different formats and structures  
+- **LLM Hallucination**: Implementing prompt engineering strategies to minimize hallucination, though complete elimination proved challenging  
+- **Evaluation Framework**: Designing an evaluation framework for LLM outputs without extensive manual annotation  
+
+
+<!-- ### Lessons Learned
+- -->
+
+---
+
+[← Back to Portfolio](portfolio.html)

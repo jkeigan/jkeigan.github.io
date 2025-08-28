@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About Me – Jonathan Keigan</title>
+<title>BC Children’s Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support – Jonathan Keigan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">BC Children’s Hospital Chatbot: A Safety-focused AI Tool for Hospital Discharge Support</h1>
 </div>
 
 
@@ -135,9 +135,73 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming soon…</p>
+<p>During a two month internship with BC Children’s Hosptial, my team and I created an end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.</p>
+<p><img src="BCCH_frontend_gif.gif" class="img-fluid"></p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<div class="row">
+<section id="features" class="level3 col-md-6">
+<h3 class="anchored" data-anchor-id="features"><strong>Features</strong></h3>
+<ul>
+<li>End-to-end pipelines for both production and evaluation</li>
+<li>Custom LangChain-powered architecture for modularity, scalability, and cross-domain adaptability</li>
+<li>Flexible LLM implementation: supports multiple providers, future models, local and cloud-based</li>
+<li>ColBERT reranking for improved document relevance</li>
+<li>Flask web application with chatbot interface</li>
+<li>Source link generation for transparency and trust</li>
+</ul>
+</section>
+<section id="tech-stack" class="level3 col-md-6">
+<h3 class="anchored" data-anchor-id="tech-stack"><strong>Tech Stack</strong></h3>
+<ul>
+<li><strong>Languages</strong>: Python, JavaScript, HTML, CSS</li>
+<li><strong>ML/AI</strong>: LangChain, Custom RAG, LLM API integration (OpenAI, Google GENAI, Hugging Face)</li>
+<li><strong>Vector Database</strong>: FAISS, ColBERT reranking</li>
+<li><strong>Web Framework</strong>: Flask</li>
+<li><strong>Evaluation</strong>: Prometheus LLM judge, AlignScore, BERT Score, BLEU Score, etc.</li>
+<li><strong>Tools</strong>: Jupyter notebooks, Git</li>
+</ul>
+</section>
+</div>
+</section>
+<section id="project-details" class="level2">
+<h2 class="anchored" data-anchor-id="project-details">Project Details</h2>
+<section id="problem-statement" class="level3">
+<h3 class="anchored" data-anchor-id="problem-statement">Problem Statement</h3>
+<p>Patients and families often struggle to find reliable, accessible medical information online. While there are many healthcare resources available, navigating them effectively requires significant time and effort. There was a need for a system that could understand medical questions and provide accurate, trustworthy answers.</p>
+</section>
+<section id="approach-solution" class="level3">
+<h3 class="anchored" data-anchor-id="approach-solution">Approach &amp; Solution</h3>
+<p>We opted to develop a custom RAG system that combines:<br>
+- <strong>Data Preprocessing</strong>: Cleaning and chunking of public healthcare resources and websites<br>
+- <strong>Semantic Search</strong>: FAISS vector database with optional ColBERT reranking for improved relevance<br>
+- <strong>Response Generation</strong>: LLM-powered answer generation using LangChain for structured output<br>
+- <strong>Evaluation Framework</strong>: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judges, semantic similarity scores) - <strong>Object Oriented Design</strong>: Designed a modular and scalable system, allowing for easy integration of new data sources and models.</p>
+</section>
+<section id="results-impact" class="level3">
+<h3 class="anchored" data-anchor-id="results-impact">Results &amp; Impact</h3>
+<p>By the end of our internship, we had:<br>
+- Created a baseline retrieval system for future healthcare AI applications at BC Children’s Hospital<br>
+- Implemented comprehensive evaluation pipeline for both retrieval and generation quality<br>
+- Created a user-friendly chatbot interface that provides answers with source links</p>
+</section>
+<section id="key-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="key-challenges">Key Challenges</h3>
+<p>There were several challenges we faced:<br>
+- <strong>Data Quality &amp; Variety</strong>: Handling messy, heterogeneous data from various healthcare sources with different formats and structures<br>
+- <strong>LLM Hallucination</strong>: Implementing prompt engineering strategies to minimize hallucination, though complete elimination proved challenging<br>
+- <strong>Evaluation Framework</strong>: Designing an evaluation framework for LLM outputs without extensive manual annotation</p>
+<!-- ### Lessons Learned
+- The importance of comprehensive evaluation pipelines in RAG systems
+- How custom RAG implementations can outperform off-the-shelf solutions for domain-specific applications
+- The value of source transparency in building trust with medical AI systems
+- The challenges of evaluating generative AI outputs in domains requiring expert knowledge -->
+<hr>
+<p><a href="portfolio.html">← Back to Portfolio</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
