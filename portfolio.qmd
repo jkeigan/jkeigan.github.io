@@ -4,7 +4,7 @@ format: html
 ---
 
 ### [BC Children's Hospital QA Chatbot](BCCH_RAG.html)
-
+**AI Engineering | RAG | LLMs | LangChain | Semantic Search**  
 An end-to-end Retrieval-Augmented Generation (RAG) chatbot for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.
 
 ---

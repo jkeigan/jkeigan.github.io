@@ -143,12 +143,19 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
 <p>During a two month internship with BC Children’s Hosptial’s Digital Lab, my team and I created an <strong>end-to-end Retrieval-Augmented Generation (RAG) chatbot</strong> for medical queries. It provides trustworthy information to patients and caregivers via a dataset of curated healthcare resources.</p>
 <div class="row">
+<section id="impact" class="level3 col-md-6">
+<h3 class="anchored" data-anchor-id="impact"><strong>Impact</strong></h3>
+<ul>
+<li><strong>General</strong>: Enabled reliable document retrieval across large, heterogeneous data sources, adaptable to multiple industries (healthcare, finance, legal, etc.).</li>
+<li><strong>Domain-specific</strong>: Helped caregivers and patients quickly access trusted resources, reducing time spent searching and improving information accessibility.</li>
+<li><strong>Organizational</strong>: Delivered a baseline retrieval pipeline that can be reused by the hospital’s tech team for other document collections, lowering future development costs.</li>
+</ul>
+</section>
 <section id="key-features" class="level3 col-md-6">
 <h3 class="anchored" data-anchor-id="key-features"><strong>Key Features</strong></h3>
 <ul>
+<li><strong>Document Retrieval</strong>: Semantic search with FAISS + optional ColBERT reranking for improved relevance</li>
 <li><strong>Data Preprocessing</strong>: Parsing, cleaning and chunking of heterogenous data sources (PDFs, websites, etc.)</li>
-<li><strong>Semantic Search</strong>: FAISS vector database with optional ColBERT reranking for improved relevance<br>
-</li>
 <li><strong>LLM Integration</strong>: LLM-powered answer generation with LangChain for structured output and prompt engineering to minimize hallucination</li>
 <li><strong>Evaluation Toolkit</strong>: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judge, semantic similarity scores)<br>
 </li>
@@ -180,8 +187,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="approach-solution">Approach &amp; Solution</h3>
 <p><a href="https://medium.com/@jonathankeigan/chatgpt-makes-mistakes-dont-be-outrageous-c0d7d2f947a2">Read more about our approach on Medium</a></p>
 </section>
-<section id="results-impact" class="level3">
-<h3 class="anchored" data-anchor-id="results-impact">Results &amp; Impact</h3>
+<section id="results" class="level3">
+<h3 class="anchored" data-anchor-id="results">Results</h3>
 <p>By the end of our internship, we had:<br>
 - Created a baseline retrieval system for future healthcare AI applications at BC Children’s Hospital<br>
 - Implemented comprehensive evaluation pipeline for both retrieval and generation quality<br>

@@ -14,9 +14,18 @@ During a two month internship with BC Children's Hosptial's Digital Lab, my team
 <div class="row">
 <div class="col-md-6">
 
+### **Impact**
+- **General**: Enabled reliable document retrieval across large, heterogeneous data sources, adaptable to multiple industries (healthcare, finance, legal, etc.).
+- **Domain-specific**: Helped caregivers and patients quickly access trusted resources, reducing time spent searching and improving information accessibility.
+- **Organizational**: Delivered a baseline retrieval pipeline that can be reused by the hospital’s tech team for other document collections, lowering future development costs.
+
+</div>
+
+<div class="col-md-6">
+
 ### **Key Features**
+- **Document Retrieval**: Semantic search with FAISS + optional ColBERT reranking for improved relevance
 - **Data Preprocessing**: Parsing, cleaning and chunking of heterogenous data sources (PDFs, websites, etc.)
-- **Semantic Search**: FAISS vector database with optional ColBERT reranking for improved relevance  
 - **LLM Integration**: LLM-powered answer generation with LangChain for structured output and prompt engineering to minimize hallucination
 - **Evaluation Toolkit**: Multi-metric assessment using both retrieval metrics (precision, recall, F1) and generation quality metrics (LLM judge, semantic similarity scores)  
 - **Object Oriented Design**: Modular and scalable system to facilitate integration of new data sources and models.
@@ -45,7 +54,7 @@ Patients and families often struggle to find reliable, accessible medical inform
 ### Approach & Solution
 [Read more about our approach on Medium](https://medium.com/@jonathankeigan/chatgpt-makes-mistakes-dont-be-outrageous-c0d7d2f947a2)
 
-### Results & Impact
+### Results
 By the end of our internship, we had:  
 - Created a baseline retrieval system for future healthcare AI applications at BC Children's Hospital    
 - Implemented comprehensive evaluation pipeline for both retrieval and generation quality  
